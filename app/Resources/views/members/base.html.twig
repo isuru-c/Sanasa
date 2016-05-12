@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    Main members page
+{% endblock %}
+
+{% block side_navigation %}
+    <div class="list-group">
+        <a href="{{ path('member_new_person') }}" class="list-group-item"> Add new person </a>
+        <a href="{{ path('member_all') }}" class="list-group-item"> All members </a>
+        <a href="" class="list-group-item"> Topic 3 </a>
+        <a href="" class="list-group-item"> Topic 4 </a>
+        <a href="" class="list-group-item"> Topic 5 </a>
+
+    </div>
+{% endblock %}
