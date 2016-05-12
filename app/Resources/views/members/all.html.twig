@@ -1,5 +1,60 @@
 {% extends 'members/base.html.twig' %}
 
 {% block main %}
-    All members page
+
+    <h4>Members</h4>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th><i class=""></i> NIC Number</th>
+            <th><i class=""></i> Full Name</th>
+            <th><i class=""></i> Starting date</th>
+            <th><i class="fa fa-cogs"></i> Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for member in members %}
+            <tr>
+                <td> {{ member.nic_number }} </td>
+                <td> {{ member.full_name }}</td>
+                <td>{{ member.starting_date }} </td>
+                <td>
+                    <div class="item-actions">
+                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Select</a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h4>Non members</h4>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th><i class=""></i> NIC Number</th>
+            <th><i class=""></i> Full Name</th>
+            <th><i class=""></i> Starting date</th>
+            <th><i class="fa fa-cogs"></i> Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for person in persons %}
+            <tr>
+                <td> {{ person.nic_number }} </td>
+                <td> {{ person.full_name }}</td>
+                <td>{{ person.starting_date }} </td>
+                <td>
+                    <div class="item-actions">
+                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Select</a>
+                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Make member</a>
+                        {#<a href="" class="btn btn-sm btn-default"><i class=""></i> Suspend</a>#}
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}

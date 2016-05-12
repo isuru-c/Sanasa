@@ -65,8 +65,23 @@ class MemberController extends Controller
      */
     public function memberAllAction(Request $request)
     {
-        return $this->render('members/all.html.twig', [
+        $connection = $this->getDoctrine()->getManager()->getConnection();
 
+        $query = "SELECT * FROM person";
+
+        $statement = $connection->prepare($query);
+        $statement->execute();
+        $person = $statement->fetchAll();
+
+        return $this->render('members/all.html.twig', [
+            'persons' => $person,
         ]);
+    }
+
+    /**
+     * @Route("/member/new/member/{nic}", defaults={"nic"='0'}, name="person_to_member")
+     */
+    public function personToMemberAction(Request $request){
+
     }
 }
