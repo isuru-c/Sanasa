@@ -54,7 +54,7 @@ class MemberController extends Controller
             return $this->redirectToRoute('member_all');
         }
 
-        return $this->render('members/newperson.html.twig', [
+        return $this->render('members/new_person.html.twig', [
             'form' => $form->createView(),
         ]);
 
@@ -79,7 +79,7 @@ class MemberController extends Controller
     }
 
     /**
-     * @Route("/member/new/member/{nic}", defaults={"nic"='0'}, name="person_to_member")
+     * @Route("/member/new/member/{nic}", defaults={"nic"=0}, name="person_to_member")
      */
     public function personToMemberAction(Request $request){
 

@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    Main accounts page
+{% endblock %}
+
+{% block side_navigation %}
+    <div class="list-group">
+        <a href="{{ path('account_new') }}" class="list-group-item"> Add new account </a>
+        <a href="{{ path('account_all') }}" class="list-group-item"> All accounts </a>
+        <a href="" class="list-group-item"> Topic 3 </a>
+        <a href="" class="list-group-item"> Topic 4 </a>
+        <a href="" class="list-group-item"> Topic 5 </a>
+
+    </div>
+{% endblock %}

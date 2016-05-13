@@ -30,17 +30,14 @@
                         {% block header_navigation_links %}
                             <li><a href="{{ path('homepage') }}"><i class="fa fa-home"></i> Homepage</a></li>
 
-
                             {% if app.user and is_granted('ROLE_ADMIN') %}
                                 <li><a href="{{ path('member_homepage') }}"><i class="fa "></i> Members</a></li>
-                            {% endif %}
-
-                            {% if app.user and (is_granted('ROLE_ADMIN') or is_granted('ROLE_STUDENT') or is_granted('ROLE_COACH')) %}
+                                <li><a href="{{ path('account_homepage') }}"><i class="fa "></i> Accounts</a></li>
                             {% endif %}
 
                         {% endblock %}
 
-                        {# Log out section #}
+                        {# Log in/out section #}
                         {% if app.user %}
                             <li><a href="{{ path('security_logout') }}"> <i class="fa fa-sign-out"></i> Sign out </a></li>
                         {% else %}
@@ -59,7 +56,7 @@
         <div class="row">
 
             <div id="main" class="col-sm-9">
-                {% block main %}<h1> MoraSpirit </h1>
+                {% block main %}<h1> SANASA </h1>
                 {% endblock %}
             </div>
 

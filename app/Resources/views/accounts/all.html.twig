@@ -1,0 +1,38 @@
+{% extends 'accounts/base.html.twig' %}
+
+{% block main %}
+
+    <h4>Non members</h4>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th><i class=""></i> Id</th>
+            <th><i class=""></i> Account Name</th>
+            <th><i class=""></i> Member Type</th>
+            <th><i class=""></i> Account Type</th>
+            <th><i class=""></i> Interest Type</th>
+            <th><i class=""></i> Interest</th>
+            <th><i class="fa fa-cogs"></i> Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for account in accounts %}
+            <tr>
+                <td> {{ account.id }} </td>
+                <td> {{ account.name }}</td>
+                <td> {{ account.member_type }}</td>
+                <td>{{ account.account_type }} </td>
+                <td> {{ account.interest_type }}</td>
+                <td> {{ account.interest }}</td>
+                <td>
+                    <div class="item-actions">
+                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Select</a>
+                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Edit</a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

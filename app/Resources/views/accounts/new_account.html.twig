@@ -1,0 +1,10 @@
+{% extends 'accounts/base.html.twig' %}
+
+{% block main %}
+    {% form_theme form 'bootstrap_3_horizontal_layout.html.twig' %}
+    <div id="main" class="col-sm-9">
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
