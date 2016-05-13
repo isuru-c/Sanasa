@@ -1,0 +1,14 @@
+{% extends 'members/base.html.twig' %}
+
+{% block main %}
+    {% form_theme form 'bootstrap_3_horizontal_layout.html.twig' %}
+    <h5>Please enter following details for the person, </h5>
+    Name : {{ person.full_name }} <br>
+    Nic Number : {{ person.nic_number }} <br><br>
+    <div id="main" class="col-sm-9">
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
+

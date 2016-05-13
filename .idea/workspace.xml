@@ -4,7 +4,6 @@
     <list default="true" id="e274ea53-22fc-41e7-93de-01f970b5efd8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/members/all.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/members/all.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sanasa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,15 +28,30 @@
       <file leaf-file-name="MemberController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49746192">
-              <caret line="75" column="159" selection-start-line="75" selection-start-column="159" selection-end-line="75" selection-end-column="159" />
+            <state vertical-scroll-proportion="0.6954315">
+              <caret line="76" column="187" selection-start-line="76" selection-start-column="187" selection-end-line="76" selection-end-column="187" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
-                <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-                <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-                <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-                <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+                <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+                <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+                <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+                <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+                <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+                <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+                <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+                <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+                <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_member.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/members/new_member.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,8 +59,8 @@
       <file leaf-file-name="all.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/members/all.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state vertical-scroll-proportion="-13.888889">
+              <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -74,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/accounts/view.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/members/all.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/members/new_member.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php" />
       </list>
     </option>
@@ -483,10 +498,15 @@
           <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-            <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-            <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-            <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+            <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+            <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -524,10 +544,15 @@
           <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-            <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-            <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-            <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+            <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+            <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -573,10 +598,15 @@
           <caret line="48" column="145" selection-start-line="48" selection-start-column="145" selection-end-line="48" selection-end-column="145" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-            <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-            <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-            <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+            <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+            <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -609,10 +639,15 @@
           <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-            <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-            <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-            <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+            <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+            <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -719,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/members/new_person.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/new_account.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3333335">
@@ -786,24 +813,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/members/new_person.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24365482">
+          <caret line="8" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/members/all.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state vertical-scroll-proportion="-13.888889">
+          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/members/new_member.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49746192">
-          <caret line="75" column="159" selection-start-line="75" selection-start-column="159" selection-end-line="75" selection-end-column="159" />
+        <state vertical-scroll-proportion="0.6954315">
+          <caret line="76" column="187" selection-start-line="76" selection-start-column="187" selection-end-line="76" selection-end-column="187" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <marker date="1463153703128" expanded="true" signature="1479:1544" placeholder="INSERT INTO ..." />
-            <marker date="1463153703128" expanded="true" signature="2201:2287" placeholder="SELECT * FRO..person..." />
-            <marker date="1463153703128" expanded="true" signature="2247:2286" placeholder="SELECT DISTI..members..." />
-            <marker date="1463153703128" expanded="true" signature="2434:2586" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="1538:1603" placeholder="INSERT INTO ..." />
+            <marker date="1463158936485" expanded="true" signature="2260:2346" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="2306:2345" placeholder="SELECT DISTI..members..." />
+            <marker date="1463158936485" expanded="true" signature="2493:2663" placeholder="SELECT perso..members..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3248" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3249" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3269" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3210:3270" placeholder="SELECT * FRO..person..." />
+            <marker date="1463158936485" expanded="true" signature="3890:3970" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
