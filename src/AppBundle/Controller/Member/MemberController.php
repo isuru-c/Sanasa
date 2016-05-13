@@ -67,14 +67,20 @@ class MemberController extends Controller
     {
         $connection = $this->getDoctrine()->getManager()->getConnection();
 
-        $query = "SELECT * FROM person";
+        $query = "SELECT * FROM person WHERE nic_number NOT IN (SELECT DISTINCT nic_number FROM members)";
 
         $statement = $connection->prepare($query);
         $statement->execute();
         $person = $statement->fetchAll();
 
+        $query = "SELECT person.full_name, person.nic_number, members.starting_date, members.membership_number FROM members LEFT OUTER JOIN person ON (members.nic_number)";
+
+        $statement = $connection->prepare($query);
+        $statement->execute();
+        $members = $statement->fetchAll();
+
         return $this->render('members/all.html.twig', [
-            'persons' => $person,
+            'persons' => $person, 'members' => $members,
         ]);
     }
 

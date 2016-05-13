@@ -7,6 +7,7 @@
     <table class="table table-striped">
         <thead>
         <tr>
+            <th><i class=""></i> Membership Number</th>
             <th><i class=""></i> NIC Number</th>
             <th><i class=""></i> Full Name</th>
             <th><i class=""></i> Starting date</th>
@@ -16,6 +17,7 @@
         <tbody>
         {% for member in members %}
             <tr>
+                <td> {{ member.membership_number }} </td>
                 <td> {{ member.nic_number }} </td>
                 <td> {{ member.full_name }}</td>
                 <td>{{ member.starting_date }} </td>
