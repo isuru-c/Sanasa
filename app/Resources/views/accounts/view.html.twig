@@ -1,0 +1,58 @@
+{% extends 'accounts/base.html.twig' %}
+
+{% block main %}
+    <table>
+        <tr>
+            <td><b>Account name</b></td>
+            <td> : {{ account.name }}</td>
+        </tr>
+        <tr>
+            <td><b>Member type</b></td>
+            <td>:
+                {% if account.member_type == 0 %}
+                    Members
+                {% elseif account.member_type == 1 %}
+                    Non members
+                {% else %}
+                    Others
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><b>Account type</b></td>
+            <td>:
+                {% if account.account_type == 0 %}
+                    Deposit
+                {% elseif account.account_type == 1 %}
+                    Loan
+                {% else %}
+                    Others
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><b>Interest type</b></td>
+            <td>:
+                {% if account.interest_type == 0 %}
+                    Monthly
+                {% elseif account.interest_type == 1 %}
+                    3 month
+                {% elseif account.interest_type == 2 %}
+                    4 month
+                {% elseif account.interest_type == 2 %}
+                    Yearly
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><b>Interest</b></td>
+            <td>:{{ account.interest }}</td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+{% endblock %}

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e274ea53-22fc-41e7-93de-01f970b5efd8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/members/newperson.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/members/new_person.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig" />
     </list>
     <ignored path="Sanasa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +28,50 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.555555">
-              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state vertical-scroll-proportion="-57.22222">
+              <caret line="170" column="37" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
               <folding>
                 <element signature="e#48#81#0#PHP" expanded="true" />
-                <marker date="1463140108876" expanded="true" signature="2184:2275" placeholder="INSERT INTO ..." />
-                <marker date="1463140108876" expanded="true" signature="3027:3041" placeholder="SELECT * FRO..person..." />
-                <marker date="1463140108876" expanded="true" signature="3027:3053" placeholder="SELECT * FRO..account_type..." />
+                <element signature="e#797#925#0#PHP" expanded="false" />
+                <element signature="e#1040#2805#0#PHP" expanded="false" />
+                <marker date="1463148031137" expanded="true" signature="2185:2276" placeholder="INSERT INTO ..." />
+                <marker date="1463148031137" expanded="true" signature="3103:3139" placeholder="SELECT * FRO..account_type..." />
+                <marker date="1463148031137" expanded="true" signature="4603:4626" placeholder="UPDATE accou..." />
+                <marker date="1463148031137" expanded="true" signature="5571:5585" placeholder="SELECT * FRO..person..." />
+                <marker date="1463148031137" expanded="true" signature="5571:5597" placeholder="SELECT * FRO..account_type..." />
+                <marker date="1463148031137" expanded="true" signature="6090:6116" placeholder="SELECT * FRO..account_type..." />
+                <marker date="1463148031137" expanded="true" signature="6090:6126" placeholder="SELECT * FRO..account_type..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/view.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8781726">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.0740743">
+              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.888889">
+              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,16 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.3333335">
               <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57360405">
-              <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -92,8 +116,9 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Person.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/AccountType.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/accounts/new_account.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/accounts/view.html.twig" />
       </list>
     </option>
   </component>
@@ -514,9 +539,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#81#0#PHP" expanded="true" />
-            <marker date="1463140108876" expanded="true" signature="2184:2275" placeholder="INSERT INTO ..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3041" placeholder="SELECT * FRO..person..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3053" placeholder="SELECT * FRO..account_type..." />
+            <element signature="e#797#925#0#PHP" expanded="false" />
+            <element signature="e#1040#2805#0#PHP" expanded="false" />
+            <marker date="1463148031137" expanded="true" signature="2185:2276" placeholder="INSERT INTO ..." />
+            <marker date="1463148031137" expanded="true" signature="3103:3139" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="4603:4626" placeholder="UPDATE accou..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5585" placeholder="SELECT * FRO..person..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5597" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6116" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6126" placeholder="SELECT * FRO..account_type..." />
           </folding>
         </state>
       </provider>
@@ -545,6 +576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -554,9 +586,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#81#0#PHP" expanded="true" />
-            <marker date="1463140108876" expanded="true" signature="2184:2275" placeholder="INSERT INTO ..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3041" placeholder="SELECT * FRO..person..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3053" placeholder="SELECT * FRO..account_type..." />
+            <element signature="e#797#925#0#PHP" expanded="false" />
+            <element signature="e#1040#2805#0#PHP" expanded="false" />
+            <marker date="1463148031137" expanded="true" signature="2185:2276" placeholder="INSERT INTO ..." />
+            <marker date="1463148031137" expanded="true" signature="3103:3139" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="4603:4626" placeholder="UPDATE accou..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5585" placeholder="SELECT * FRO..person..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5597" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6116" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6126" placeholder="SELECT * FRO..account_type..." />
           </folding>
         </state>
       </provider>
@@ -701,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9137056">
-          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Member/MemberController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -752,27 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/new_account.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.555555">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#81#0#PHP" expanded="true" />
-            <marker date="1463140108876" expanded="true" signature="2184:2275" placeholder="INSERT INTO ..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3041" placeholder="SELECT * FRO..person..." />
-            <marker date="1463140108876" expanded="true" signature="3027:3053" placeholder="SELECT * FRO..account_type..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/members/all.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37563452">
@@ -781,10 +791,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/new_account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/all.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57360405">
-          <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+        <state vertical-scroll-proportion="-11.888889">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Account/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-57.22222">
+          <caret line="170" column="37" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
+          <folding>
+            <element signature="e#48#81#0#PHP" expanded="true" />
+            <element signature="e#797#925#0#PHP" expanded="false" />
+            <element signature="e#1040#2805#0#PHP" expanded="false" />
+            <marker date="1463148031137" expanded="true" signature="2185:2276" placeholder="INSERT INTO ..." />
+            <marker date="1463148031137" expanded="true" signature="3103:3139" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="4603:4626" placeholder="UPDATE accou..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5585" placeholder="SELECT * FRO..person..." />
+            <marker date="1463148031137" expanded="true" signature="5571:5597" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6116" placeholder="SELECT * FRO..account_type..." />
+            <marker date="1463148031137" expanded="true" signature="6090:6126" placeholder="SELECT * FRO..account_type..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0740743">
+          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/accounts/view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8781726">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding />
         </state>
       </provider>

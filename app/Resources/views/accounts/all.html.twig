@@ -27,8 +27,8 @@
                 <td> {{ account.interest }}</td>
                 <td>
                     <div class="item-actions">
-                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Select</a>
-                        <a href="" class="btn btn-sm btn-default"><i class=""></i> Edit</a>
+                        <a href="{{ path('account_view', {'id':account.id}) }}" class="btn btn-sm btn-default"><i class=""></i> Select</a>
+                        <a href="{{ path('account_edit', {'id':account.id}) }}" class="btn btn-sm btn-default"><i class=""></i> Edit</a>
                     </div>
                 </td>
             </tr>
