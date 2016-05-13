@@ -1,0 +1,11 @@
+{% extends 'members/base.html.twig' %}
+
+{% block main %}
+    <h4>{{ member.full_name }} - {% if is_member == true %} Member {% else %} Not a member {% endif %}</h4>
+    Nic number - {{ member.nic_number }}<br><br>
+
+    <h4>Account details</h4>
+    <h5><b>Deposit accounts</b></h5><br><br>
+    <h5><b>Loan accounts</b></h5><br><br>
+    <h5><b>Other accounts</b></h5><br><br>
+{% endblock %}

@@ -126,5 +126,39 @@ class MemberController extends Controller
         ]);
     }
 
+    /**
+     * @Route("/member/view/{nic_number}", defaults={"nic_number"=0}, name="member_view")
+     */
+    public function viewMemberAction(Request $request, $nic_number)
+    {
+        $connection = $this->getDoctrine()->getManager()->getConnection();
 
+        $query = "SELECT full_name, members.nic_number, membership_number, members.starting_date FROM members
+                    JOIN person ON (person.nic_number=members.nic_number) WHERE members.nic_number='" . $nic_number . "'";
+
+        $statement = $connection->prepare($query);
+        $statement->execute();
+        $member = $statement->fetchAll();
+
+        if(sizeof($member) == 0){
+            $is_member = false;
+
+            $query = "SELECT * FROM person WHERE nic_number='" . $nic_number . "'";
+
+            $statement = $connection->prepare($query);
+            $statement->execute();
+            $person = $statement->fetchAll();
+
+            $mem_data = $person[0];
+
+        }
+        else{
+            $is_member = true;
+            $mem_data = $member[0];
+        }
+
+        return $this->render('members/view.html.twig', [
+            'member' => $mem_data, 'is_member' => $is_member,
+        ]);
+    }
 }
